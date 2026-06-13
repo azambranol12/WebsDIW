@@ -1,0 +1,107 @@
+body{
+    width:1200px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1200px;
+    height: 120px;
+    background-color: blue;
+    text-align: center;
+
+    h1{
+        padding: 35px 0px 0px 0px;
+    }
+}
+
+nav{
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(99, 99, 199);
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+        padding: 20px 0px 0px 0px;
+        justify-content: center;
+
+        li {
+            flex: 1 1 200px; /* grow, shrink, basis*/
+            text-align: center;
+        }
+    }
+}
+
+.CajaPrincipal{
+    width: 1200px;
+    min-height: 520px;
+    background-color: aquamarine;
+}
+
+aside{
+    width: 120px;
+    min-height: 480px;
+    background-color: rgb(9, 107, 74);
+    float: left;
+    padding: 20px 20px 20px 60px;
+
+    h1{
+        margin: 0;
+    }
+
+    ul{
+        margin: 20px 0px 0px 0px;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        list-style: none;
+        li{
+            flex: 1 1 70px;
+        }
+    }
+}
+
+.CajaCentro{
+    width: 480px;
+    min-height: 500px;
+    background-color: rgb(61, 221, 61);
+    float: left;
+    padding: 20px 20px 0px 20px;
+    img{
+        width: 480px;
+        height: 190px;
+    }
+    h3{
+        margin: 0;
+    }
+    p{
+        margin:0 0 20px;
+    }
+}
+
+.CajaDerecha{
+    width: 445px;
+    background-color: rgb(223, 205, 47);
+    float: left;
+    padding: 20px 25px 0 10px;
+
+    p{
+        margin:0 0 20px;
+    }
+}
+
+footer{
+    width: 1200px;
+    height: 80px;
+    background-color: brown;
+    text-align: center;
+    p{
+        padding: 30px 0px 0px 0px;
+        margin: 0;
+    }
+}
+
