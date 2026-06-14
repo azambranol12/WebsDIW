@@ -107,7 +107,6 @@ footer{
 
 
 
-/* Cuando el contenedor empieza a quedarse justo */
 @media (max-width:950px){
 
     body{
@@ -149,8 +148,6 @@ footer{
 
 }
 
-
-/* Móvil */
 @media (max-width:480px){
 
     body{
