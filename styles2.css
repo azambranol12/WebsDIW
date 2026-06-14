@@ -43,11 +43,11 @@ nav{
 }
 
 aside{
-    width: 10%; /*120px*/
+    width: 10%; /*120px en base a 1200*/
     min-height: 480px;
     background-color: rgb(9, 107, 74);
     float: left;
-    padding: 1.67% 1.67% 1.67% 5%;
+    padding: 1.67% 1.67% 1.67% 5%; /* 20 20 20 60 todas las reglas de tres en base a 1200*/
 
     h1{
         margin: 0;
@@ -72,7 +72,7 @@ aside{
     float: left;
     padding: 1.67% 1.67% 0px 1.67%;/*En base a 1200px*/
     img{
-        width: 100%;
+        width: 100%; /*Mide 480 el ancho del padre por lo cual el 100*/
         height: 190px; /*190*/
     }
     h3{
